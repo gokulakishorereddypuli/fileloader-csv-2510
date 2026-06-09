@@ -1,0 +1,23 @@
+{
+    "backends": {
+        "HCM": {
+            "servers": [
+                {
+                    "url": "https://dyn-components.developervm.devdevcsphx.oraclevcn.com:3001/bc/hcm",
+                    "description": "Default Server",
+                    "x-vb": {
+                        "anonymousAccess": true
+                    }
+                }
+            ]
+        },
+        "ws": {
+            "servers": [
+                {
+                    "url": "https://echo.websocket.org",
+                    "description": "Echo Websocket Org"
+                }
+            ]
+        }
+    }
+}
