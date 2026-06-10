@@ -41,7 +41,10 @@
                 },
                 "x-vb": {
                     "actionHint": "getMany",
-                    "queryParameters": {}
+                    "queryParameters": {},
+                    "transforms": {
+                        "path": "./transforms.js"
+                    }
                 }
             }
         }
